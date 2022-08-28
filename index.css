@@ -1,0 +1,156 @@
+body{
+	background: url(./images/th\ \(11\).jpg) no-repeat;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+}
+header {
+    width: 750px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-right: 30px;
+}
+h1 {
+    display: inline;
+    color: white;
+    position: absolute;
+    left: 50px;
+}
+nav {
+    float: right;
+    margin-top: 7px;
+    position: sticky;
+}
+li {
+    background-color: azure;
+    display: inline;
+    margin-right: 13px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+span {
+    font-size: 13px;
+}
+strong {
+    font-size: 30px;
+}
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+.parents {
+    display: inline;
+    margin: 0 auto;
+}
+div#subParents {
+    display: inline;
+    margin-left: 22px;
+    position: relative;
+    top: 44px;
+    left: 275px;
+}
+div#sectionParent {
+    color: #989898;
+    background-color: #333333;
+    overflow: auto;
+}
+div#sub-sections {
+    width: 750px;
+    margin: 0 auto;
+    overflow: auto;
+}
+section {
+    width: 180px;
+    float: left;
+    margin-right: 7px;
+    padding: 0;
+    height: 157px;
+}
+section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+section ul li {
+    line-height: 2;
+    border-bottom: 1px solid;
+}
+section ul li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 11px;
+}
+div#footer {
+
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+div#footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 68px;
+}
+div#footer b {
+    margin: 0 auto;
+    overflow: auto;
+    margin-top: 11px;
+    padding: 0px;
+    float: left;
+    font-size: 13px;
+}
+div#footer p {
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+    margin-top: 11px;
+    float: right;
+    font-size: 13px;
+}
+@media only screen and (max-width: 900px) {
+    body {
+        border: 2px solid;
+        padding: 10px;
+        background-color: chartreuse;
+    }
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+ 

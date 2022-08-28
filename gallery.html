@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        img {
+            width: 500px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="column">
+            <img src="./images/th (1).jpg" alt="">
+            <img src="./images/th (2).jpg" alt="">
+            <img src="./images/th (3).jpg" alt="">
+        </div>
+        <div class="column">
+            <img src="./images/th (5).jpg" alt="">
+            <img src="./images/th (4).jpg" alt="">
+            <img src="./images/th (6).jpg" alt="">
+        </div>
+        <div class="column">
+            <img src="./images/th (7).jpg" alt="">
+            <img src="./images/th (8).jpg" alt="">
+            <img src="./images/th (9).jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
